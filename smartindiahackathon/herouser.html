@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard - TheyWe</title>
+    <link rel="stylesheet" href="herouser.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <h1 class="logo">TheyWe</h1>
+        </div>
+    </nav>
+
+    <!-- User Dashboard Section -->
+    <section class="user-dashboard">
+        <h2>Welcome, User!</h2>
+        <p>Your safety is our priority. In case of emergency, press the panic button.</p>
+        
+        <!-- Panic Button -->
+        <div class="panic-container">
+            <button id="panic-button" class="panic-button">PANIC</button>
+        </div>
+
+        <hr>
+        <!-- Notify Volunteers Section -->
+        <div class="notify-container">
+            <h3>Notify Volunteers</h3>
+            <textarea id="notify-message" placeholder="Describe the suspicious activity..."></textarea>
+            <button id="notify-button" class="notify-button">Notify Volunteers</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>TheyWe © 2024. For assistance, contact info@theywe.com</p>
+    </footer>
+
+    <script src="herouser.js"></script>
+</body>
+</html>

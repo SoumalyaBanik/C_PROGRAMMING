@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheyWe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+        <a href="#">TheyWe</a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="signupuser.html">Signup as USER</a></li>
+        <li><a href="signupvolunteer.html">Signup as VOLUNTEER</a></li>
+    </ul>
+</nav>
+
+
+    <header>
+        <h1>TheyWe - Women Safety Platform</h1>
+        <p>A secure platform to ensure your safety by connecting with volunteers and authorities.</p>
+    </header>
+
+    <main>
+        
+
+      <section id="how-to-use">
+        <div class="how-to-use-container">
+            <h2>How to Use?</h2>
+            <ol class="steps-list">
+                <li>Volunteers should register through <a href="signupvolunteer.html">Volunteer Signup</a>.</li>
+                <li>Users should register through <a href="signupuser.html">User Signup</a>.</li>
+                <li>Once registered, login by entering your username and password.</li>
+                <li>After logging in, the service will start. In case of an emergency, press the panic button for immediate assistance.</li>
+                <li>You can also notify volunteers about suspicious activity through the Notify section.</li>
+                <li>Our platform ensures your data's security through encryption and salting, safeguarding your information and safety.</li>
+            </ol>
+        </div>
+    </section>
+
+<hr>
+        <section class="info-section">
+            <h2>About the Platform</h2>
+            <p>
+                This platform allows women in danger to connect with nearby volunteers and police instantly using GPS. We aim to create a safer environment through community support and technology.
+            </p>
+        </section>
+
+        <section class="tips-section">
+            <h2>Quick Safety Tips</h2>
+            <ul>
+                <li>Share your location with trusted contacts when traveling alone.</li>
+                <li>Use well-lit routes and avoid isolated areas at night.</li>
+                <li>Keep your phone accessible and fully charged.</li>
+                <li>Trust your instincts – if something feels wrong, seek help immediately.</li>
+            </ul>
+        </section>
+
+        <hr><div class="div">&nbsp&nbsp</div>
+
+
+        <section class="login-section">
+          <div class="user-login">
+              <h2>User Login</h2>
+              <form action="/user-login" method="POST">
+                  <input type="text" placeholder="Enter Username" required>
+                  <input type="password" placeholder="Enter Password" required>
+                  <button type="submit">Login</button>
+              </form>
+          </div>
+
+          <div class="volunteer-login">
+              <h2>Volunteer Login</h2>
+              <form action="/volunteer-login" method="POST">
+                  <input type="text" placeholder="Enter Username" required>
+                  <input type="password" placeholder="Enter Password" required>
+                  <button type="submit">Login</button>
+              </form>
+          </div>
+      </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Women Safety Initiative. All rights reserved.</p>
+    </footer>
+</body>
+</html>

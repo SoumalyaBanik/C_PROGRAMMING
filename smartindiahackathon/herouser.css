@@ -1,0 +1,103 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("images/home1.jpg");
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+/* Navigation */
+.nav-container {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2em;
+    color: #ff871de2;
+}
+
+/* User Dashboard Section */
+.user-dashboard {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.user-dashboard h2 {
+    font-size: 2.5em;
+    color: #ff871de2;
+}
+
+.user-dashboard p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Panic Button */
+.panic-container {
+    margin: 40px 0;
+}
+
+.panic-button {
+    background-color: #ff8c2e;
+    color: #fff;
+    font-size: 2em;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.panic-button:hover {
+    background-color: #ffb87f;
+}
+
+/* Notify Section */
+.notify-container {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.notify-container h3 {
+    font-size: 1.8em;
+    color: #ff871de2;
+    margin-bottom: 10px;
+}
+
+#notify-message {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.notify-button {
+    background-color: #04ff00;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.notify-button:hover {
+    background-color: #ff4d73;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+    color: #f1f1f1;
+    margin-top: 50px;
+}

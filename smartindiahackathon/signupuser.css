@@ -1,0 +1,85 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling for the login container */
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Styling for the login header */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for the input labels */
+.login-container label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Styling for the text input fields */
+.login-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Styling for the login button */
+.login-container button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+/* Basic radio group styling */
+.radio-group {
+    display: flex;
+    gap: 20px; /* Space between the radio options */
+    margin-top: 10px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 8px; /* Space between radio button and label */
+}
+
+form label {
+    font-size: 1.1em;
+    color: #000000; /* Adjust color as per your theme */
+}
+
+.radio-group label {
+    font-size: 1em;
+    color: #000000; /* Lighter text for the radio option labels */
+}
+
+form {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,78 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image:url("images/home1.jpg");
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+/* Navigation */
+.nav-container {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2em;
+    color: #ff871de2;
+}
+
+/* Volunteer Dashboard Section */
+.volunteer-dashboard {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.volunteer-dashboard h2 {
+    font-size: 2.5em;
+    color: #ff871de2;
+}
+
+.volunteer-dashboard p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Alerts Section */
+.alerts-container {
+    margin-top: 40px;
+}
+
+.alerts-box {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+    overflow-y: auto;
+    border: 2px solid #ff871de2;
+}
+
+/* Notifications Section */
+.notifications-container {
+    margin-top: 40px;
+}
+
+.notifications-box {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+    overflow-y: auto;
+    border: 2px solid #ff871de2;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+    color: #f1f1f1;
+    margin-top: 50px;
+}
